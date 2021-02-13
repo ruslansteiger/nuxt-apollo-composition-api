@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-apollo-composition-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/composition-api": "^0.19.1",
+    "@vue/apollo-composable": "4.0.0-alpha.10",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "vue": "2.6.12",
+    "vue-server-renderer": "2.6.12",
+    "vue-template-compiler": "2.6.12"
+  },
+  "devDependencies": {}
+}
