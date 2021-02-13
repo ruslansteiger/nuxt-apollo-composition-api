@@ -13,6 +13,7 @@
     "@nuxtjs/composition-api": "^0.19.1",
     "@vue/apollo-composable": "4.0.0-alpha.10",
     "core-js": "^3.8.3",
+    "graphql-tag": "^2.11.0",
     "nuxt": "^2.14.12",
     "vue": "2.6.12",
     "vue-server-renderer": "2.6.12",

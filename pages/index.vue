@@ -3,11 +3,13 @@
 </template>
 
 <script>
+import gql from "graphql-tag";
 import { useQuery } from "@vue/apollo-composable";
 
+// prettier-ignore
 export default {
   setup() {
-    useQuery();
+    useQuery(gql`{ hello }`)
   }
-};
+}
 </script>
