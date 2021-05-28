@@ -4,7 +4,7 @@
 
 <script>
 import gql from "graphql-tag";
-import { useQuery } from "@vue/apollo-composable";
+import { useQuery } from "@vue/apollo-composable/dist";
 
 // prettier-ignore
 export default {

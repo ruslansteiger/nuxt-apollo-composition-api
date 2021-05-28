@@ -3,7 +3,7 @@ import {
   onGlobalSetup,
   defineNuxtPlugin
 } from "@nuxtjs/composition-api";
-import { DefaultApolloClient } from "@vue/apollo-composable";
+import { DefaultApolloClient } from "@vue/apollo-composable/dist";
 
 export default defineNuxtPlugin(({ app }) => {
   onGlobalSetup(() => {
